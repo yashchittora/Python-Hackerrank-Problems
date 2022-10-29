@@ -18,3 +18,31 @@ print(my_string)
 ```zsh
 Hello,World!
 ```
+
+<br></br>
+
+### [2. Python If-Else](https://github.com/yashchittora/Python-Hackerrank-Problems/blob/main/Problems/01.%20Introduction/002.%20Python%20If-Else.py)
+
+```python
+n = int(input().strip())
+
+if n%2!=0 and 1<= n <=100 :
+	print("Weird")
+	
+if n%2==0 and 2<= n <=5 :
+	print("Not Weird")
+	
+if n%2==0 and 6<= n <= 20:
+	print("Weird")
+	
+if n%2==0 and n>20: 
+	print("Not Weird")
+```
+
+Example :
+**If input is given `5` , Then : 
+Required Output**
+
+```
+Weird
+```
